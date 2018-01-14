@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--layout-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.paece.sample.helloworld.MainActivity">
+
+
+
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_height="120dp"
+        card_view:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        card_view:cardBackgroundColor="#0181db">
+
+        <ImageView
+            android:src="@drawable/home"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+        />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        card_view:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        card_view:cardBackgroundColor="#f2764a">
+
+    <ImageView
+        android:src="@drawable/ic_event_black_24dp"
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        />
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view3"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        card_view:cardCornerRadius="20dp"
+        card_view:cardBackgroundColor="#8b61ad">
+
+        <ImageView
+            android:src="@drawable/ic_phone_black_24dp"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view4"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_column="1"
+        android:layout_row="1"
+        card_view:cardCornerRadius="20dp"
+        card_view:cardBackgroundColor="#00b39b">
+
+        <ImageView
+            android:src="@drawable/web"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            />
+
+    </android.support.v7.widget.CardView>
+</GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="My College"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:text="Developed by YoungTechy"
+    android:paddingBottom="20dp"/>
+
+</RelativeLayout>
