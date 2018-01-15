@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         CardView cv1 = (CardView) findViewById(R.id.card_view);
         CardView cv2 = (CardView) findViewById(R.id.card_view2);
-        final CardView cv3 = (CardView) findViewById(R.id.card_view3);
+        CardView cv3 = (CardView) findViewById(R.id.card_view3);
         CardView cv4 = (CardView) findViewById(R.id.card_view4);
 
 
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void dialContactPhone(final String phoneNumber) {
+    private void dialContactPhone(String phoneNumber) {
 
         startActivity(new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phoneNumber, null)));
     }
